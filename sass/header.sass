@@ -1,0 +1,632 @@
+@import "bourbon/bourbon"
+
+@import "_var.sass"
+
+body
+	font-size: 15px
+	min-width: 320px
+	position: relative
+	line-height: em(22px)
+	font-family: "RobotoRegular", sans-serif
+	overflow-x: hidden
+	color: #333
+
+h1
+		color: #000
+		text-align: center
+		font-family: "RobotoBold"
+		padding: 55px 0px 15px
+		text-transform: uppercase
+		font-size: 35px
+		margin: 0px
+		font-weight: bold
+h2
+		color: #fff
+		text-align: center
+		font-size: 28px
+		font-family: "RobotoRegular"
+		text-transform: none
+		font-weight: normal
+h3
+		font-family: "RobotoRegular"
+		font-size: 20px
+		color: #fff
+		text-transform: none
+p
+		font-family: "RobotoRegular"
+		font-size: 15px
+		line-height: 18px
+		color: #000
+
+header
+	height: auto
+	background-image: url(../img/bg.jpg)
+	background-size: cover
+	background-repeat: repeat-x
+	background-position: 50% 50%
+	overflow: hidden
+
+.top-menu, 
+.bot-menu
+	padding-top: 4px
+	width: auto
+	height: 55px
+	background-color: #e2e9eb
+	box-shadow: 0px 2px 6.91px 0.02px rgba(0, 0, 2, 0.2)
+
+.logo
+	opacity: 1
+	a
+		font-family: "RobotoBold"
+		font-size: 12px
+		font-weight: bold
+		display: block
+		color: #000
+		text-decoration: none
+	a:hover
+		text-decoration: none
+		color: #000
+	img 
+		display: block
+		padding-left: 55px
+		padding-bottom: 2px
+
+
+.main-menu
+	font-family: "RobotoBold", sans-serif
+	li
+		line-height: 24px
+		padding: 15px 0 0 0 
+		padding-left: 40px
+		&.active 
+			a
+				transition: .15s ease-out
+				color: $main-color
+				text-decoration: underline 
+		a:hover
+			color: $main-color
+			transition: .15s ease-out
+		&:first-child
+			padding-left: 0px 
+	ul
+		list-style-type: none
+		margin: 0
+		padding: 0
+		li
+			display: inline-block
+			ul.yoyo
+				display: block
+			ul.serv
+				box-shadow: 0px 0px 6.91px 0.02px rgba(0, 0, 2, 0.4)
+				opacity: 0
+				visibility: hidden
+				top: 40px
+				left: 255px
+				position: absolute
+				z-index: 10
+				width: 250px
+				transition: all .25s ease .1s
+				li
+					line-height: 16px
+					display: block	
+					opacity: .95
+					padding: 8px 10px
+					margin: 0
+					background-color: #fff
+					&:hover
+						opacity: .97
+						background-color: #e2e9eb
+						transition: all .2s
+				a
+					color: #000
+					text-decoration: none
+					font-size: 13px
+					&:hover
+						text-decoration: none
+						color: #000
+			&:hover
+				ul.serv
+					opacity: 1
+					visibility: visible
+
+			
+	a
+		font-size: em(15px)
+		text-transform: uppercase
+		text-decoration: none
+		color: #000
+	
+.phone-wrap
+		margin-top: 5px
+		.phone
+			font-family: "Exo2Bold" 
+			padding: 0px
+			margin: 0
+			text-align: right
+			font-size: 20px
+			line-height: 15px
+			p
+				font-family: "PTSans"
+				margin: 0px
+				font-size: 16.4px
+				text-decoration: underline
+			a
+				outline: none;
+				text-decoration: 
+				color: #000
+			a:hover
+				color: $main-color
+				text-decoration: underline
+			.fa-mobile
+				font-size: 19px
+				margin-right: 5px 
+
+
+
+.head 
+	position: relative
+	padding: 50px 0
+.content-left
+	margin-top: 60px
+	h1
+		text-align: left
+		font-family: "BebasNeueBold"
+		font-size: 38px
+		line-height: 34px
+		padding: 0px
+		margin-bottom: 15px
+		color: #000
+	.bullets
+		margin-top: 40px
+		p
+			font-family: "BebasNeueRegular"
+			font-size: 20px
+			padding: 3px 0px
+			margin: 0px
+		.fa-check-square-o
+			font-size: 19px
+			margin-right: 3px
+
+.content-right
+	margin-left: -200px
+	margin-top: 30px
+
+.butt
+	display: block
+	width: 330px
+	height: 55px
+	padding-top: 15px
+	text-align: center
+	text-decoration: none
+	background-color: #b3d85b
+	color: #000
+	margin-top: 30px
+	font-family: "RobotoBold"
+	font-size: 22px
+	border-radius: 5px
+	box-shadow: 0px 3px 2.91px 0.09px rgba(0, 0, 2, 0.46);
+	outline: none
+	border: none
+	&:hover
+		background-color: #9bbd4c
+		transition: .2s ease-out
+		text-decoration: none
+		color: #000
+	&:active
+		background-color: #DB8C0E
+		color: #000
+		text-decoration: none
+
+
+
+article.about
+	h2
+		color: #000
+	height: auto
+	padding-bottom: 50px
+	background-image: url(../img/about-bg.jpg)
+	background-size: cover
+	background-position: 50% 50%
+	
+.clearfix
+	clear: both
+	padding-top: 30px
+
+.about-us
+	height: auto
+	.about-right, .about-left
+		height: 600px 
+		overflow: hidden
+		border: 3px solid #AEAFB1
+
+		h2
+			background-color: #2F3D66
+			color: #fff
+			padding: 20px 0
+			margin: 0
+			font-family: "BebasNeueRegular"
+			font-weight: bold
+			font-size: em(30px)
+		width: 100%
+		padding: 15px
+		box-shadow: 0px 0px 2.91px 0.09px rgba(0, 0, 2, 0.46);
+		background-color: #fff
+	.butt
+		margin: 30px auto
+		color: #2d1751
+		
+.about-item
+	margin-top: 20px
+	height: auto
+
+.line
+	display: none
+	opacity: 0.5
+	width: 1px
+	height: 500px
+	background-color: #746a6a
+	display: inline-block
+	position: absolute
+	top: 110px
+	left: 480px
+
+.why-us
+	padding-bottom: 30px
+	position: relative
+	.why
+		h1		
+			color: #aeafb1
+		p
+			color: #474656
+			font-size: 16px
+			line-height: 19px
+.why-bg
+	height: 350px
+
+
+
+.item
+	padding: 5px
+	margin: 20px 0
+	max-width: 100%
+	height: 172px
+	overflow: hidden
+	background-color: #fff
+	border: 1px solid #fff
+	transition: .15s ease-out
+	&:hover
+		border: 1px solid #000
+		transition: .4s ease-out
+		cursor: pointer
+	a
+		outline: none
+		text-decoration: none
+	a:hover
+		outline: none
+		text-decoration: none
+		cursor: pointer
+	h3
+		margin: 0
+		padding: 0 5px
+		text-align: left
+		color: #c6d3df
+		text-transform: uppercase
+		font-size: em(22px)
+		line-height: em(21px)
+		font-family: "BebasNeueRegular"
+	p
+		color: #000
+		font-size: em(14px)
+		line-height: em(19px)
+		margin: 0
+		padding: 0 5px
+		font-weight: bold
+.item-left
+	float: left
+	width: 55%
+	.item-name
+		width: 100%
+		height: 55px
+		background-color: #192853
+	.item-desc
+		width: 100%
+		margin: 5px 0px
+		padding: 0
+.item-right
+	float: right
+	height: 100%
+	overflow: hidden
+	width: 44%
+	margin: 0
+	padding: 0
+	vertical-align: top
+
+
+
+
+.services
+	z-index: 10
+	height: auto
+	padding-bottom: 50px
+	background-image: url(../img/uslugi-bg.png)
+	background-size: cover
+	background-position: 50% 50%
+	h1
+		padding: 40px 15px 5px 
+		display: block
+		width: 65%
+		color: #aeafb1
+		text-align: left
+		background-color: #2f3d66
+		line-height: 54px
+	h2
+		margin: 0
+		padding: 40px 0px 5px 
+		text-align: left
+		font-size: em(23px)
+		font-weight: bold
+		text-transform: uppercase
+		color: #2f3d66
+		line-height: 25px
+
+.contacts, .contacts-info, .about-info, .services-info
+	height: auto
+	padding: 30px 0 
+	background-color: #392f4a
+	h1
+		margin-bottom: 60px
+		padding-top: 10px
+	span
+		color: #fff
+	.fa-envelope, .fa-mobile, .fa-map-marker
+		color: #fff
+		width: 28px
+		font-size: 20px
+	.fa-mobile
+		padding-left: 6px
+	.fa-map-marker
+		padding-left: 5px
+	.contacts-left	
+		p
+			color: #aeafb1
+			display: inline-block
+			margin: 2px
+			font-weight: normal
+	.map
+		margin-left: -5px
+		margin-top: 25px
+		width: 480px
+		height: 336px
+		background-color: #000
+		background-image: url(../img/map.png)
+		background-position: center center
+		border: 1px solid white
+		box-shadow: 0px 0px 6.91px 0.02px rgba(0, 0, 2, 0.4)
+
+.sertificat
+	background-color: #F1F2F4
+	padding: 50px 0 100px 0
+	h1
+		color: #aeafb1
+		margin-top: 0
+		padding: 0
+		margin-bottom: 60px
+
+.serf-img-wrap
+	display: inline-block
+	height: auto
+
+.contacts
+	h1
+		color: #fff
+
+.contacts-info, .about-info, .services-info
+	margin: 50px 0
+	padding: 35px
+	background-color: #fff
+	height: auto
+	box-shadow: 0px 0px 10.91px 0.02px rgba(0, 0, 2, 0.4)
+	h1
+		color: #000
+		line-height: 40px
+	.form
+		background-color: #fff
+		h2
+			color: #000
+		input
+			background-color: #edf0f0
+			&:focus
+				background-color: #d5d7d7
+				box-shadow: none
+	.contacts-left	
+		p
+			color: #667882
+		span
+			color: #000
+		.fa-envelope, .fa-mobile, .fa-map-marker
+			color: #000
+		a
+			text-decoration: none
+			color: #667882
+
+.services-info
+	h1
+		margin-bottom: 30px
+		display: block
+		position: relative
+		&::after
+			content: ""
+			display: block
+			position: relative
+			width: 500px
+			height: 1px
+			background-color: #000
+			top: 0px
+			margin: 15px auto 0
+
+	p
+		color: #000
+		font-weight: normal
+	span
+		font-family: "RobotoBold", sans-serif
+		color: #000
+		padding: 0
+		margin: 0
+		font-size: 15px
+		line-height: 18px
+	.form-hidden
+		display: none
+	.img-wrapper
+		float: right
+		margin: 15px 0 0 20px
+		a
+			text-decoration: none
+			color: #000
+			font-size: 20px
+			line-height: 25px
+			font-family: "RobotoRegular"
+		a:hover
+			color: #000
+			text-decoration: none
+		.img-table
+			width: 400px
+			height: 300px
+			vertical-align: middle
+			display: table-cell
+			text-align: center
+			overflow: hidden
+			border: 10px solid #112633
+			background-image: url(../img/prach1.jpg)
+			background-position: center center
+			background-size: 390px 290px
+			background-repeat: no-repeat
+			background-color: #000
+			transition: all 0.3s
+			&:hover
+				opacity: 0.8
+				transition: all 0.3s
+			img
+				float: none
+				padding: 0
+				margin: 0
+.services-gallery 
+	display: none
+.si-1
+	img
+		float: right
+		padding-left: 50px
+	.serv-desc
+		display: block
+	.serv-butt
+		display: block
+
+
+.about-info
+	width: 100%
+	height: auto
+	p
+		color: #000
+		font-weight: bold
+	img
+		margin: auto
+		display: block
+	.about-logo	
+		span
+			padding: 10px 0
+			display: block
+			margin: auto
+			text-align: center
+			color: #000
+			font-weight: bold
+			font-size: em(22px)
+	.form
+		margin-top: 50px
+	
+.hidden-form
+	display: none
+	.form
+		height: auto
+		padding-bottom: 20px
+	
+
+.form
+		box-shadow: 0px 0px 6.91px 0.02px rgba(0, 0, 2, 0.4)
+		width: 350px
+		height: 430px
+		background-color: #112633
+		display: block !important
+		h2
+			padding-top: 25px
+			margin: 0px
+			text-align: center
+			font-size: 25px
+			font-weight: bold
+			font-family: "RobotoRegular"
+			text-transform: uppercase
+		p
+			color: #93a4ae
+			font-family: "RobotoLight"
+			font-size: 14px
+			text-align: center
+			margin-bottom: 25px
+		span
+			display: block
+			color: #fff
+			padding: 0px 30px
+			margin: 15px 0px 3px
+			color: #7f8e98
+		input
+			display: block
+			padding-left: 15px
+			margin: auto
+			width: 90%
+			height: 40px
+			border-radius: 5px
+			background-color: #667882
+			border: none
+			outline: none
+			color: #163040
+			&:focus
+				box-shadow: 0 4px #625479
+				background-color: #b8ccd7
+		.butt
+			display: block
+			border: none
+			padding-top: 0
+			margin: auto
+			margin-top: 30px
+			height: 50px
+			width: 250px
+
+footer
+	.bot-menu
+		background-color: #051d2c
+		box-shadow: none
+		height: 150px
+		padding-top: 0
+	.logo
+		padding-bottom: 0
+		padding-top: 9px
+		a
+			color: #fff
+		a:hover
+			color: #fff
+	.main-menu 
+		padding-top: 15px
+		a
+			color: #fff
+	.phone-wrap
+		padding-top: 20px
+		color: #fff
+		p
+			color: #fff
+
+
+.hidden
+	display: none
+
+
+
+
+
+@import _media.sass
