@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "PFCentroSlabProBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.woff") format("woff"), url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "PFCentroSlabProMedium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.woff") format("woff"), url("../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RalewayBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RalewayBold/RalewayBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayBold/RalewayBold.woff") format("woff"), url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RalewayRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"), url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RalewaySemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RalewaySemiBold/RalewaySemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewaySemiBold/RalewaySemiBold.woff") format("woff"), url("../fonts/RalewaySemiBold/RalewaySemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Exo2Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Exo2Bold/Exo2-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Exo2Bold/Exo2-Bold-webfont.woff") format("woff"), url("../fonts/Exo2Bold/Exo2-Bold-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "PTSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/PTSans/PTS55F-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSans/PTS55F-webfont.woff") format("woff"), url("../fonts/PTSans/PTS55F-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "BebasNeueBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/BebasNeueBold/BebasNeueBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "BebasNeueBook";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/BebasNeueBook/BebasNeueBook.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "BebasNeueRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/BebasNeueRegular/BebasNeueRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype"); }
